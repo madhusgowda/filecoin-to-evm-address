@@ -1,9 +1,10 @@
-module filecoin-to-evm-address
+module github.com/madhusgowda/filecoin-to-evm-address
 
-go 1.23.2
+go 1.23.0
+
+require github.com/filecoin-project/go-address v1.2.0
 
 require (
-	github.com/filecoin-project/go-address v1.2.0 // indirect
 	github.com/ipfs/go-block-format v0.2.0 // indirect
 	github.com/ipfs/go-cid v0.4.1 // indirect
 	github.com/ipfs/go-ipfs-util v0.0.3 // indirect
