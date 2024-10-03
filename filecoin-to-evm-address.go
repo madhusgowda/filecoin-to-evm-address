@@ -6,7 +6,7 @@ import (
 	"github.com/filecoin-project/go-address"
 )
 
-func filecoinToEVM(filecoinAddress string) (string, error) {
+func FilecoinToEVM(filecoinAddress string) (string, error) {
 	// Parse the Filecoin address
 	addr, err := address.NewFromString(filecoinAddress)
 	if err != nil {
