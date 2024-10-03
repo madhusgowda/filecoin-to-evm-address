@@ -16,12 +16,12 @@ This Go program decodes Filecoin addresses (specifically Delegated Addresses in 
 **Example** <br>
 Given a Filecoin address: <br>
 ```
-t410f2oekwcmo2pueydmaq53eic2i62crtbeyuzx2gmy <br>
+f410f2oekwcmo2pueydmaq53eic2i62crtbeyuzx2gmy
 ```
 
 The program will output the corresponding Ethereum address: <br>
 ```
-0xd388ab098ed3e84c0d808776440b48f685198498<br>
+0xd388ab098ed3e84c0d808776440b48f685198498
 ```
 **Installation** <br>
 
