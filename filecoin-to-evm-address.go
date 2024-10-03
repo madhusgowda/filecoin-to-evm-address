@@ -10,7 +10,7 @@ func FilecoinToEVM(filecoinAddress string) (string, error) {
 	// Parse the Filecoin address
 	addr, err := address.NewFromString(filecoinAddress)
 	if err != nil {
-		return "", fmt.Errorf("failed to parse Filecoin address: %w", err)
+		return filecoinAddress, fmt.Errorf("failed to parse Filecoin address: %w", err)
 	}
 
 	// Check if the address is a Delegated Address (Protocol 4)
